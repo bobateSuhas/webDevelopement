@@ -1,0 +1,80 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+.suhas
+{
+          width: 50%;
+          min-height: 100px;
+          border: 2px solid black;
+          margin: auto;
+}
+.header
+{
+          width: 100%;
+          min-height: 70px;
+          background-color: lightpink;
+
+}
+.header h1
+{ 
+          text-align: center;
+          font-style: italic;
+          font-size: x-large;
+}
+.menu
+{
+        width: 100%;
+        min-height: 70px;
+        background-color: lightgray;
+        margin-top: 9px;
+        padding: 20px;
+        margin-left: auto;
+}
+.menu a{
+          padding:auto 20px;
+          text-decoration: none;
+          scroll-behavior: smooth;
+}
+.menu button{
+          border-bottom-right-radius: 5px;
+          border-image-outset: 10px;
+          font-size: 10px;
+          
+}
+.diagram
+{
+          width: 100%;
+          height: 600px;
+          background-color: lightsteelblue;
+          margin-top: 9px;
+}
+.diagram img
+{
+          width: 100%;
+          height: 600px;
+          opacity: 80px;
+}
+.content
+{        width: 100%;
+          height: auto;
+          background-color: whitesmoke;
+          margin-top: 9px;
+          
+}
+.footer
+{
+          width: 100%;
+          height: 50px;
+          background-color: lightpink;
+          margin-top: 9px;
+          line-height: normal;
+}
+.footer h3{
+          margin-top: 20px;
+          padding-top: 20px;
+          text-align: center;
+          scroll-behavior: inherit;
+
+}

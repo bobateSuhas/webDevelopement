@@ -1,0 +1,112 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+.container 
+{
+          margin: auto;
+          width: 80%;
+          min-height: 100px;
+          /* border: 3px solid black; */
+          background-color: white;
+}
+.header{
+          height: 40px;
+          width: 100%;
+          box-sizing: border-box;
+          background-color: black;
+          margin-bottom: 10px;
+}
+.header .logo 
+{
+          float: left;
+          /* border: 1px solid black; */
+          width: 48%;
+          height: 40px;
+          /* margin-left: 5px; */
+          padding: 30px 20px;
+          
+          background-color:black;
+}
+.logo h3
+{
+          color: aliceblue;
+          font-style: italic;
+          font-size:x-large; 
+          text-align: center;
+            
+}
+
+.header .menu
+{
+          float: left;
+           
+          width: 52%;
+          height: 40px;
+           
+          padding: 30px 20px;
+          color: aliceblue;
+          background-color: black;
+         
+}
+.menu h3 a{
+          text-decoration: none;
+          color: aliceblue;
+          padding: 5px;
+}
+.menu h3 a:hover
+{
+          background-color: lightgrey;
+}
+ .slider
+ {
+          height: 400px;
+          width: 100%;
+          background-color: lightgoldenrodyellow;
+          margin-top: 30px;
+ }
+ .slider img
+ {
+          height: 400px;
+          width: 100%;
+ }
+ .content-div
+ {
+          width: 100%;
+          height: 300px;
+          background-color: aquamarine;
+          margin-top: 10px;
+ }
+ .content-div .news
+{
+          float: left;
+          width: 30%;
+          border: 3px solid black;
+          height: 300px;
+}
+
+.content-div .content-info
+{
+          float: right;
+          width: 30%;
+          margin-right: 10px;
+          height: 300px;
+          border: 3px solid black;
+}
+.content-div .image-div
+{
+          float: right;
+          width: 30%;
+          height: 300px;
+          border: 3px solid black;
+
+}
+ .footer
+{
+          min-height: 100px;
+          width: 100%;
+          box-sizing: border-box;
+          background-color: lightgreen;
+          margin-top: 10px;
+}

@@ -1,0 +1,29 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+.container
+{
+          width: 80%;
+          height: 100px;
+          background-color: aqua;
+}
+.container .logo
+{
+          float: left;
+}
+.container .content
+{
+          float: right;
+}
+
+.slider
+{
+          height: 200px;
+          width: 100%;
+          background-color: lightcoral;
+          margin-top: 10px;
+
+}
