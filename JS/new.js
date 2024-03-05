@@ -1,10 +1,13 @@
  
- const profile={
-          fullName: "shradhaKhapara",
-          isFollow: true,
-          posts:195,followers:56900,following:4,
-          message:0,
+
+ // we have to print the string line by line .....or simply use of for-of loop
+
+ let Name="suhasBobate";
+ let size=0;
+ for(let val of Name)
+ {
+          console.log("val = ", val);
+          size++;
  }
- console.log(profile)
- console.log(typeof profile.fullName);
- console.log(typeof profile.posts)
+
+ console.log("Size of your string is : ",size);
